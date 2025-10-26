@@ -1,4 +1,5 @@
 package ma.rest.spring.banque.entities;
 
-public class TypeCompte {
+public enum TypeCompte {
+    COURANT, EPARGNE
 }
